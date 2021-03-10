@@ -28,4 +28,8 @@ class Vendor
       @inventory[item] * item.price
     end
   end
+
+  def item_names
+    @inventory.keys
+  end
 end
